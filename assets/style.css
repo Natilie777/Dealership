@@ -75,3 +75,9 @@ flex-direction: row;
   margin-top: 1rem;
   margin-right: 1rem;
 }
+a{
+  color: rgb(27, 26, 26);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
