@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/form.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Order</title>
+</head>
+<body>
+
+<header id="header">
+  <nav>
+    <ul class="menu">
+      <li class="list"><a href="../index.html">Cars</a></li>
+      <li class="list">About us</li>
+      <li class="list">Special offers</li>
+    </ul>
+  </nav>
+  <a href="./assets/formPage.html" class="btn">Home page</a>
+</header>
+
+<main>
+  <h1>Contact form</h1>
+  <form class="form">
+  
+    <fieldset class="set">
+  
+      <div class="label-input">
+  
+        <div class="label-input">
+          <label class="label" for="first-name">First name</label>
+          <input type="text" id="first-name" name="first-name">
+        </div>
+  
+        <div class="label-input">
+          <label class="label" for="last-name">Last name</label>
+          <input type="text" id="last-name" name="last-name">
+        </div>
+  
+        <div class="label-input">
+          <label class="label" for="date">Birthday</label>
+          <input type="date" id="date" name="date">
+        </div>
+  
+        <div class="label-input">
+          <label class="label" for="male">Male</label>
+          <input type="radio" id="male" name="gender" checked>
+        </div>
+  
+        <div class="label-input">
+          <label class="label" for="female">Female</label>
+          <input type="radio" id="female" name="gender">
+        </div>
+  
+        <div class="label-input">
+          <label class="label" for="drive-experience">Drive experience</label>
+          <input type="time" id="drive-experience" name="drive-experience">
+        </div>
+  
+      </div>
+  
+    </fieldset>
+  
+    <fieldset class="set">
+  
+      <div class="label-input">
+        <label class="label" for="email">Your email</label>
+        <input type="email" id="email" name="email">
+      </div>
+  
+      <div class="label-input">
+        <label class="label" for="tel">Your phone number</label>
+        <input type="tel" id="tel" name="tel">
+      </div>
+  
+      <div class="label-input">
+        <label class="label" for="address">Your address</label>
+        <textarea id="address" name="address" maxlength="50"></textarea>
+      </div>
+  
+    </fieldset>
+  
+    <fieldset class="set">
+  
+      <div class="label-input">
+        <label class="label" for="brand">Select brand</label>
+        <select name="brand" id="brand">
+          <option value="---" selected></option>
+          <option value="Ford">Ford</option>
+          <option value="Toyota">Toyota</option>
+          <option value="BMW">BMW</option>
+        </select>
+      </div>
+  
+      <div class="label-input">
+        <label class="label" for="model">Select model</label>
+        <select name="model" id="model">
+          <option value="---"></option>
+          <option value="Ford-Mustang">Ford Mustang</option>
+          <option value="Ford-F-150">Ford F-150</option>
+          <option value="Toyota Corolla">Toyota Corolla</option>
+          <option value="Toyota-RAV4">Toyota RAV4</option>
+          <option value="BMW-3-Series">BMW 3 Series</option>
+          <option value="BMW-X5">BMW X5</option>
+        </select>
+      </div>
+  
+      <div class="label-input">
+        <label class="label" for="used">Used car</label>
+        <input type="checkbox" id="used" name="used">
+      </div>
+  
+      <div class="label-input">
+        <label class="label" for="colors">Color</label>
+        <div class="colors" id="colors">
+          <input type="radio" id="red" name="color">
+          <input type="radio" id="black" name="color">
+          <input type="radio" id="blue" name="color">
+          <input type="radio" id="white" name="color">
+          <input type="radio" id="grey" name="color">
+        </div>
+      </div>
+  
+      <div class="label-input">
+        <label class="label" for="price">Your budget:$</label>
+        <input type="range" min="6000" max="300000" id="price" name="price">
+      </div>
+  
+    </fieldset>
+  
+    <div class="btn">
+      <input type="submit" value="Ok">
+      <button type="reset">Cancel</button>
+    </div>
+  
+  </form>
+</main>
+
+<footer>
+  <img class="logo" src="../assets/icon/logo.png" alt="logo">
+  <ul class="contacts-list">
+    <li class="contact">Email:contact@carhub-demo.com</li>
+    <li class="contact">Tel:+972 50 123 4567</li>
+    <li class="contact">245 Sunset Avenue, Tel Aviv, Israel</li>
+  </ul>
+</footer>
+
+</body>
+</html>

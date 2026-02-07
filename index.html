@@ -11,20 +11,24 @@
 </head>
 <body>
 <header id="header">
+
   <nav>
-    <ul class="menu">
-      <li class="list">Cars</li>
-      <li class="list">About us</li>
-      <li class="list">Special offers</li>
-    </ul>
+    
+    <div class="menu">
+        <h2 class="brands">Brands:</h2>
+    <a href="#ford" class="list">Ford</a>
+    <a href="#toyota" class="list">Toyota</a>
+    <a href="#bmw" class="list">BMW</a>
+    </div>
   </nav>
+  <a  href="./assets/formPage.html" class="btn">Place order</a>
 </header>
 <main>
 <h1>DEALERSHIP</h1>
 <section class="single-car">
   <div class="img-plus-title">
     <img src="./assets/images/Ford.png" alt="Ford" class="car-img">
-    <h2 class="car-title">Ford</h2>
+    <h2 id="ford" class="car-title">Ford</h2>
   </div>
   <article class="car-description">
     <h3 class="sub-title">Brand History</h3>
@@ -50,7 +54,7 @@ The Ford F-150 is highly rated for reliability, comfort, and power. Many owners 
 <section class="single-car">
   <div class="img-plus-title">
     <img src="assets/images/Tayota.png" alt="Toyota" class="car-img">
-    <h2 class="car-title">Toyota</h2>
+    <h2 id="toyota" class="car-title">Toyota</h2>
   </div>
   <article class="car-description">
     <h3 class="sub-title">Brand History</h3>
@@ -76,7 +80,7 @@ The Toyota RAV4 receives positive feedback for comfort, safety, and versatility.
 <section class="single-car">
   <div class="img-plus-title">
     <img src="assets/images/BMW.png" alt="BMW" class="car-img">
-    <h2 class="car-title">BMW</h2>
+    <h2 id="bmw" class="car-title">BMW</h2>
   </div>
   <article class="car-description">
     <h3 class="sub-title">Brand History</h3>
@@ -99,7 +103,64 @@ The Toyota RAV4 receives positive feedback for comfort, safety, and versatility.
 The BMW X5 is appreciated for comfort, luxury, and performance. However, some buyers note that repairs and spare parts can be expensive</p>
   </article>
 </section>
-<a href="#back to top link was added to html fileheader">Back to top</a>
+<table class="car-table">
+  <caption class="table-name">Cars info</caption>
+  <thead><tr><th rowspan="2">Brand</th>
+  <th rowspan="2">Model</th>
+  <th rowspan="2">Country</th>
+  <th colspan="2">Weight kg</th>
+  <th rowspan="2">Max speed</th>
+  <th rowspan="2">Release year</th></tr>
+  <tr><th>Empty</th>
+  <th>Full</th></tr></thead>
+
+  <tbody>
+    <tr><td  rowspan="2">Ford</td>
+  <td>Mustang</td>
+  <td>USA</td>
+  <td>1733</td>
+  <td>2135</td>
+   <td>250</td>
+  <td>2024</td></tr>
+
+  <tr> <td>F-150</td>
+  <td>USA</td>
+  <td>2241</td>
+  <td>2969</td>
+   <td>211</td>
+  <td>2024</td></tr>
+
+
+<tr><td   rowspan="2">Toyota</td>
+  <td>Corolla</td>
+  <td>Japan</td>
+  <td>1405</td>
+  <td>1845</td>
+   <td>160</td>
+  <td>2024</td>
+</tr>
+ <tr><td>RAV4</td>
+  <td>Japan</td>
+  <td>1670</td>
+  <td>2225</td>
+   <td>180</td>
+  <td>2024</td></tr>
+<tr><td   rowspan="2">BMW</td>
+   <td>3 Series</td>
+  <td>Germany</td>
+  <td>1835</td>
+  <td>2360</td>
+   <td>230</td>
+  <td>2024</td></tr>
+  <tr><td>X5</td>
+  <td>Germany</td>
+  <td>2240</td>
+  <td>2885</td>
+   <td>250</td>
+  <td>2024</td></tr></tbody>
+</table>
+
+<a href="#header">Back to top</a>
 </main>
 <footer>
  <img class="logo" src="assets/icon/logo.png" alt="logo">
