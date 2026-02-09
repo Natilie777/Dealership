@@ -47,7 +47,8 @@ margin: 1rem;
 }
 .gender{
 display: flex;
-  border: black solid 1px;
+margin-left: 4rem;
 
+justify-content: center;
 margin: auto;
 }
