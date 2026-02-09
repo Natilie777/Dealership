@@ -15,9 +15,9 @@ body {
   max-width: 38rem;
   width: 100%;
   height: 100%;
-  margin: 3rem auto;
+  margin: 2rem auto;
   border: rgb(75, 74, 74) solid 3px;
-  padding: 2rem;
+  padding: 1.5rem;
 
 
 }
@@ -34,11 +34,20 @@ body {
   border: rgb(80, 79, 79) solid 1px;
 
 }
-
+legend{
+text-align: left;
+margin: 1rem;
+}
 .label {
   padding: .7rem;
 }
 
 .label-input{
-  padding: .5rem 0;
+  padding: .5rem .5rem;
+}
+.gender{
+display: flex;
+  border: black solid 1px;
+
+margin: auto;
 }
