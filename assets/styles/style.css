@@ -160,8 +160,8 @@ footer {
 .car-table {
   margin: auto;
 width: 50vw;
-  border-radius: 1rem;
-  border: black solid 1px;
+  border-radius: .5rem;
+  border: rgb(56, 55, 55) ridge 4px;
 }
 
 
@@ -169,6 +169,7 @@ width: 50vw;
 th,
 td{
 
-border-right: gray solid 1.5px;
-border-bottom: grey solid 1.5px;
+border: gray solid 1.5px;
+border: grey solid 1.5px;
+border-radius: .3rem;
 }

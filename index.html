@@ -1,174 +1,261 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title>Dealership</title>
-  <link rel="stylesheet" href="./assets/styles/style.css">
-</head>
-<body>
-<header id="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dealership</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="menu">
+          <h2 class="brands">Brands:</h2>
+          <a href="#ford" class="list">Ford</a>
+          <a href="#toyota" class="list">Toyota</a>
+          <a href="#bmw" class="list">BMW</a>
+        </div>
+      </nav>
+      <a href="./assets/formPage.html" class="btn">Place order</a>
+    </header>
+    <main>
+      <h1>DEALERSHIP</h1>
+      <section class="single-car">
+        <div class="img-plus-title">
+          <img src="./assets/images/Ford.png" alt="Ford" class="car-img" />
+          <h2 id="ford" class="car-title">Ford</h2>
+        </div>
+        <article class="car-description">
+          <h3 class="sub-title">Brand History</h3>
+          <p class="description">
+            Ford Motor Company was founded in 1903 by Henry Ford in the United
+            States. The company became famous for introducing mass production
+            with the assembly line, which made cars more affordable for ordinary
+            people. Ford played a major role in the development of the global
+            automotive industry. Over time, the brand expanded its lineup to
+            include trucks, SUVs, and electric vehicles. Today, Ford is known
+            for innovation, strength, and reliability.
+          </p>
+        </article>
+        <article class="car-description">
+          <h3 class="sub-title">Two Models</h3>
+          <dl class="the-model">
+            <dt class="sub-model-title">Ford Mustang</dt>
+            <dd class="sub-model-description">
+              The Ford Mustang is a legendary sports car known for its powerful
+              engine and iconic design. It offers high performance, modern
+              technology, and a sporty driving experience. The Mustang is
+              popular among car enthusiasts who enjoy speed and style.
+            </dd>
+          </dl>
+          <dl class="the-model">
+            <dt class="sub-model-title">Ford F-150</dt>
+            <dd class="sub-model-description">
+              The Ford F-150 is one of the best-selling pickup trucks in the
+              world. It is known for its durability, towing capacity, and
+              versatility. The truck is used both for work and everyday driving.
+            </dd>
+          </dl>
+        </article>
+        <article class="car-description">
+          <h3 class="sub-title">Customer Reviews</h3>
+          <p class="description">
+            Customers praise the Ford Mustang for its strong performance,
+            attractive design, and exciting driving experience. Some users
+            mention that fuel consumption can be high. The Ford F-150 is highly
+            rated for reliability, comfort, and power. Many owners appreciate
+            its practicality, although some note that maintenance costs can be
+            expensive.
+          </p>
+        </article>
+      </section>
+      <section class="single-car">
+        <div class="img-plus-title">
+          <img src="assets/images/Tayota.png" alt="Toyota" class="car-img" />
+          <h2 id="toyota" class="car-title">Toyota</h2>
+        </div>
+        <article class="car-description">
+          <h3 class="sub-title">Brand History</h3>
+          <p class="description">
+            Toyota was founded in 1937 in Japan by Kiichiro Toyoda. The company
+            quickly gained a reputation for producing reliable and high-quality
+            vehicles. Toyota became a global leader in automotive manufacturing
+            and innovation. It was one of the first companies to popularize
+            hybrid cars. Today, Toyota is known for efficiency, durability, and
+            environmental technologies.
+          </p>
+        </article>
+        <article class="car-description">
+          <h3 class="sub-title">Two Models</h3>
+          <dl class="the-model">
+            <dt class="sub-model-title">Toyota Corolla</dt>
+            <dd class="sub-model-description">
+              The Toyota Corolla is one of the most popular compact cars in the
+              world. It is known for fuel efficiency, reliability, and
+              affordable maintenance. The Corolla is suitable for daily driving
+              and families.
+            </dd>
+          </dl>
+          <dl class="the-model">
+            <dt class="sub-model-title">Toyota RAV4</dt>
+            <dd class="sub-model-description">
+              The Toyota RAV4 is a compact SUV with a spacious interior and
+              modern features. It offers good performance and safety systems.
+              The RAV4 is popular among drivers who need comfort and
+              practicality.
+            </dd>
+          </dl>
+        </article>
+        <article class="car-description">
+          <h3 class="sub-title">Customer Reviews</h3>
+          <p class="description">
+            Customers appreciate the Toyota Corolla for its reliability, low
+            fuel consumption, and long lifespan. Some drivers find its design
+            less exciting. The Toyota RAV4 receives positive feedback for
+            comfort, safety, and versatility. However, some users mention that
+            the price can be relatively high.
+          </p>
+        </article>
+      </section>
+      <section class="single-car">
+        <div class="img-plus-title">
+          <img src="assets/images/BMW.png" alt="BMW" class="car-img" />
+          <h2 id="bmw" class="car-title">BMW</h2>
+        </div>
+        <article class="car-description">
+          <h3 class="sub-title">Brand History</h3>
+          <p class="description">
+            BMW was founded in 1916 in Germany as a manufacturer of aircraft
+            engines. Later, the company started producing motorcycles and cars.
+            BMW became famous for luxury vehicles with sporty performance and
+            advanced engineering. The brand focuses on premium quality and
+            driving dynamics. Today, BMW is one of the leading luxury car
+            manufacturers in the world
+          </p>
+        </article>
+        <article class="car-description">
+          <h3 class="sub-title">Two Models</h3>
+          <dl class="the-model">
+            <dt class="sub-model-title">BMW 3 Series</dt>
+            <dd class="sub-model-description">
+              The BMW 3 Series is a popular luxury sedan known for its balance
+              of comfort and performance. It offers powerful engines, modern
+              technology, and high-quality interiors. The model is popular among
+              drivers who value driving pleasure.
+            </dd>
+          </dl>
+          <dl class="the-model">
+            <dt class="sub-model-title">BMW X5</dt>
+            <dd class="sub-model-description">
+              The BMW X5 is a luxury SUV with strong performance and spacious
+              design. It combines comfort, advanced safety features, and
+              powerful engines. The X5 is suitable for both city driving and
+              long trips.
+            </dd>
+          </dl>
+        </article>
+        <article class="car-description">
+          <h3 class="sub-title">Customer Reviews</h3>
+          <p class="description">
+            Customers praise the BMW 3 Series for its dynamic driving, premium
+            interior, and advanced technology. Some owners mention high
+            maintenance costs. The BMW X5 is appreciated for comfort, luxury,
+            and performance. However, some buyers note that repairs and spare
+            parts can be expensive
+          </p>
+        </article>
+      </section>
+      <table class="car-table">
+        <caption class="table-name">
+          Cars info
+        </caption>
+        <thead>
+          <tr>
+            <th rowspan="2">Brand</th>
+            <th rowspan="2">Model</th>
+            <th rowspan="2">Country</th>
+            <th colspan="2">Weight kg</th>
+            <th rowspan="2">Max speed</th>
+            <th rowspan="2">Release year</th>
+          </tr>
+          <tr>
+            <th>Empty</th>
+            <th>Full</th>
+          </tr>
+        </thead>
 
-  <nav>
-    
-    <div class="menu">
-        <h2 class="brands">Brands:</h2>
-    <a href="#ford" class="list">Ford</a>
-    <a href="#toyota" class="list">Toyota</a>
-    <a href="#bmw" class="list">BMW</a>
-    </div>
-  </nav>
-  <a  href="./assets/formPage.html" class="btn">Place order</a>
-</header>
-<main>
-<h1>DEALERSHIP</h1>
-<section class="single-car">
-  <div class="img-plus-title">
-    <img src="./assets/images/Ford.png" alt="Ford" class="car-img">
-    <h2 id="ford" class="car-title">Ford</h2>
-  </div>
-  <article class="car-description">
-    <h3 class="sub-title">Brand History</h3>
-    <p class="description">Ford Motor Company was founded in 1903 by Henry Ford in the United States. The company became famous for introducing mass production with the assembly line, which made cars more affordable for ordinary people. Ford played a major role in the development of the global automotive industry. Over time, the brand expanded its lineup to include trucks, SUVs, and electric vehicles. Today, Ford is known for innovation, strength, and reliability.</p>
-  </article>
- <article class="car-description">
-    <h3 class="sub-title">Two Models</h3>
-<dl class="the-model">
-  <dt class="sub-model-title">Ford Mustang</dt>
-  <dd class="sub-model-description">The Ford Mustang is a legendary sports car known for its powerful engine and iconic design. It offers high performance, modern technology, and a sporty driving experience. The Mustang is popular among car enthusiasts who enjoy speed and style.</dd>
-</dl>
-<dl class="the-model">
-  <dt class="sub-model-title">Ford F-150</dt>
-  <dd class="sub-model-description">The Ford F-150 is one of the best-selling pickup trucks in the world. It is known for its durability, towing capacity, and versatility. The truck is used both for work and everyday driving.</dd>
-</dl>
-  </article>
- <article class="car-description">
-    <h3 class="sub-title">Customer Reviews</h3>
-    <p class="description">Customers praise the Ford Mustang for its strong performance, attractive design, and exciting driving experience. Some users mention that fuel consumption can be high.
-The Ford F-150 is highly rated for reliability, comfort, and power. Many owners appreciate its practicality, although some note that maintenance costs can be expensive.</p>
-  </article>
-</section>
-<section class="single-car">
-  <div class="img-plus-title">
-    <img src="assets/images/Tayota.png" alt="Toyota" class="car-img">
-    <h2 id="toyota" class="car-title">Toyota</h2>
-  </div>
-  <article class="car-description">
-    <h3 class="sub-title">Brand History</h3>
-    <p class="description">Toyota was founded in 1937 in Japan by Kiichiro Toyoda. The company quickly gained a reputation for producing reliable and high-quality vehicles. Toyota became a global leader in automotive manufacturing and innovation. It was one of the first companies to popularize hybrid cars. Today, Toyota is known for efficiency, durability, and environmental technologies.</p>
-  </article>
- <article class="car-description">
-    <h3 class="sub-title">Two Models</h3>
-  <dl class="the-model">
-  <dt class="sub-model-title">Toyota Corolla</dt>
-  <dd class="sub-model-description">The Toyota Corolla is one of the most popular compact cars in the world. It is known for fuel efficiency, reliability, and affordable maintenance. The Corolla is suitable for daily driving and families.</dd>
-</dl>
-<dl class="the-model">
-  <dt class="sub-model-title">Toyota RAV4</dt>
-  <dd class="sub-model-description">The Toyota RAV4 is a compact SUV with a spacious interior and modern features. It offers good performance and safety systems. The RAV4 is popular among drivers who need comfort and practicality.</dd>
-</dl>
-  </article>
-  <article class="car-description">
-    <h3 class="sub-title">Customer Reviews</h3>
-    <p class="description">Customers appreciate the Toyota Corolla for its reliability, low fuel consumption, and long lifespan. Some drivers find its design less exciting.
-The Toyota RAV4 receives positive feedback for comfort, safety, and versatility. However, some users mention that the price can be relatively high.</p>
-  </article>
-</section>
-<section class="single-car">
-  <div class="img-plus-title">
-    <img src="assets/images/BMW.png" alt="BMW" class="car-img">
-    <h2 id="bmw" class="car-title">BMW</h2>
-  </div>
-  <article class="car-description">
-    <h3 class="sub-title">Brand History</h3>
-    <p class="description">BMW was founded in 1916 in Germany as a manufacturer of aircraft engines. Later, the company started producing motorcycles and cars. BMW became famous for luxury vehicles with sporty performance and advanced engineering. The brand focuses on premium quality and driving dynamics. Today, BMW is one of the leading luxury car manufacturers in the world</p>
-  </article>
- <article class="car-description">
-    <h3 class="sub-title">Two Models</h3>
-  <dl class="the-model">
-  <dt class="sub-model-title">BMW 3 Series</dt>
-  <dd class="sub-model-description">The BMW 3 Series is a popular luxury sedan known for its balance of comfort and performance. It offers powerful engines, modern technology, and high-quality interiors. The model is popular among drivers who value driving pleasure.</dd>
-</dl>
-<dl class="the-model">
-  <dt class="sub-model-title">BMW X5</dt>
-  <dd class="sub-model-description">The BMW X5 is a luxury SUV with strong performance and spacious design. It combines comfort, advanced safety features, and powerful engines. The X5 is suitable for both city driving and long trips.</dd>
-</dl>
-  </article>
- <article class="car-description">
-    <h3 class="sub-title">Customer Reviews</h3>
-    <p class="description">Customers praise the BMW 3 Series for its dynamic driving, premium interior, and advanced technology. Some owners mention high maintenance costs.
-The BMW X5 is appreciated for comfort, luxury, and performance. However, some buyers note that repairs and spare parts can be expensive</p>
-  </article>
-</section>
-<table class="car-table">
-  <caption class="table-name">Cars info</caption>
-  <thead><tr><th rowspan="2">Brand</th>
-  <th rowspan="2">Model</th>
-  <th rowspan="2">Country</th>
-  <th colspan="2">Weight kg</th>
-  <th rowspan="2">Max speed</th>
-  <th rowspan="2">Release year</th></tr>
-  <tr><th>Empty</th>
-  <th>Full</th></tr></thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Ford</td>
+            <td>Mustang</td>
+            <td>USA</td>
+            <td>1733</td>
+            <td>2135</td>
+            <td>250</td>
+            <td>2024</td>
+          </tr>
 
-  <tbody>
-    <tr><td  rowspan="2">Ford</td>
-  <td>Mustang</td>
-  <td>USA</td>
-  <td>1733</td>
-  <td>2135</td>
-   <td>250</td>
-  <td>2024</td></tr>
+          <tr>
+            <td>F-150</td>
+            <td>USA</td>
+            <td>2241</td>
+            <td>2969</td>
+            <td>211</td>
+            <td>2024</td>
+          </tr>
 
-  <tr> <td>F-150</td>
-  <td>USA</td>
-  <td>2241</td>
-  <td>2969</td>
-   <td>211</td>
-  <td>2024</td></tr>
+          <tr>
+            <td rowspan="2">Toyota</td>
+            <td>Corolla</td>
+            <td>Japan</td>
+            <td>1405</td>
+            <td>1845</td>
+            <td>160</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>RAV4</td>
+            <td>Japan</td>
+            <td>1670</td>
+            <td>2225</td>
+            <td>180</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td rowspan="2">BMW</td>
+            <td>3 Series</td>
+            <td>Germany</td>
+            <td>1835</td>
+            <td>2360</td>
+            <td>230</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>X5</td>
+            <td>Germany</td>
+            <td>2240</td>
+            <td>2885</td>
+            <td>250</td>
+            <td>2024</td>
+          </tr>
+        </tbody>
+      </table>
 
-
-<tr><td   rowspan="2">Toyota</td>
-  <td>Corolla</td>
-  <td>Japan</td>
-  <td>1405</td>
-  <td>1845</td>
-   <td>160</td>
-  <td>2024</td>
-</tr>
- <tr><td>RAV4</td>
-  <td>Japan</td>
-  <td>1670</td>
-  <td>2225</td>
-   <td>180</td>
-  <td>2024</td></tr>
-<tr><td   rowspan="2">BMW</td>
-   <td>3 Series</td>
-  <td>Germany</td>
-  <td>1835</td>
-  <td>2360</td>
-   <td>230</td>
-  <td>2024</td></tr>
-  <tr><td>X5</td>
-  <td>Germany</td>
-  <td>2240</td>
-  <td>2885</td>
-   <td>250</td>
-  <td>2024</td></tr></tbody>
-</table>
-
-<a href="#header">Back to top</a>
-</main>
-<footer>
- <img class="logo" src="assets/icon/logo.png" alt="logo">
-  <ul class="contacts-list">
-    <li class="contact">Email:contact@carhub-demo.com</li>
-    <li class="contact">Tel:+972 50 123 4567</li>
-    <li class="contact">245 Sunset Avenue, Tel Aviv, Israel</li>
-  </ul>
-</footer>
-</body>
+      <a href="#header">Back to top</a>
+    </main>
+    <footer>
+      <img class="logo" src="assets/icon/logo.png" alt="logo" />
+      <ul class="contacts-list">
+        <li class="contact">Email:contact@carhub-demo.com</li>
+        <li class="contact">Tel:+972 50 123 4567</li>
+        <li class="contact">245 Sunset Avenue, Tel Aviv, Israel</li>
+      </ul>
+    </footer>
+  </body>
 </html>
