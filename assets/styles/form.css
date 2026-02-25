@@ -1,14 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
-  box-sizing: border-box;
-}
-
 body {
   font-size: 1rem;
   text-align: center;
-
 }
 
 .form {
@@ -22,14 +14,12 @@ body {
   padding: 1.5rem;
   border-radius: .3rem;
   color: rgb(63, 61, 61);
-
 }
-
 
 .set {
   display: flex;
   flex-direction: column;
-  flex: 0 1 1 1,2rem;
+  flex: 0 1 1 1, 2rem;
   border: 1px solid rgb(80, 79, 79);
   border-radius: .3rem;
   color: rgb(63, 61, 61);
@@ -67,22 +57,18 @@ input {
   display: flex;
   padding: .3rem .5rem;
   align-items: center;
-
 }
-
 
 .label-input select,
 .label-input textarea {
   flex: 1;
 }
 
-
 .colors {
   display: flex;
   align-items: center;
   gap: .4rem;
   flex-wrap: wrap;
-
 }
 
 .gender {
@@ -90,14 +76,11 @@ input {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-
 }
 
 .person-gender {
   display: flex;
-
   align-items: center;
-
 }
 
 .checkbox {
@@ -109,13 +92,10 @@ input {
   display: flex;
   flex-direction: column;
   padding: .5rem;
-
 }
 
 .price {
-
   margin-top: .2rem;
-
 }
 
 .btn {
@@ -123,7 +103,6 @@ input {
   gap: 5rem;
   margin: auto;
   justify-content: space-between;
-
 }
 
 input[type="submit"] {
@@ -134,4 +113,14 @@ input[type="submit"] {
 button {
   padding: .5rem 2rem;
   border-radius: .5rem;
+}
+
+#choose-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+option {
+  font-size: .8rem;
+  padding: .3rem;
 }
